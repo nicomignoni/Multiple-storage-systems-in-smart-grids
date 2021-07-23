@@ -1,0 +1,7 @@
+Object,Color,RGB,HEX
+Retailer,red,255;69;68,FF4544
+Provider,blue,75;83;255,4B53FF
+Prosumer,green,65;209;95,41D15F
+Demand,cyan,100;213;255,64D5FF
+Coordinator,yellow,255;223;70,FFDF46
+Generation,orange,254;195;0,FEC300
