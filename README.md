@@ -62,3 +62,6 @@ In the distributed approach, the communication and energy transfer network is mo
 <p align="center">
   <img src="img/distributed.png" align="center"></img>
 </p>
+
+## Reference
+N. Mignoni, _Control techniques for multiple energy storage systems in smart grids_, Politecnico di Bari, 2021
