@@ -52,11 +52,13 @@ where <img src="https://latex.codecogs.com/gif.latex?%5Cmathcal%7BK%7D_%7B%5Ctex
 This approach returns an optimal and paretian solution for the coalition, but is not practically conveneient to realize. Therefore, the decentralized and distributed approaches are formulated as alternatives.
 
 ### Decentralized
+In the decentralized approach the problem is formulated as a non-cooperative game where its solution corresponds to a Nash equilibrium point. The iterative algorithm consists of every agent solves its optimization problem and then communicates the state of its energy flow variables to a _coordinator_. Therefore, the latter can calculate the aggregate energy flow values and, consequently, the penalty factors <img src="https://latex.codecogs.com/gif.latex?\inline&space;\lambda^{(\tau)}_{t}"></img> and <img src="https://latex.codecogs.com/gif.latex?\inline&space;\psi^{(\tau)}_{t}"></img>, which guarantee the convergence of the energy flow constraints. Penalty factors are, then, are boradcasted to all agents, in order for them to calculate the penalty regularizers <img src="https://latex.codecogs.com/gif.latex?\inline&space;m_{\mathcal{P},i}"></img> and <img src="https://latex.codecogs.com/gif.latex?\inline&space;m_{\mathcal{S},j}"></img>, which are added to the objective function.
 <p align="center">
-  <img src="img/decentralized.png" align="center"></img>
+  <img src="img/decentralized.png" align="center"></img> 
 </p>
 
 ### Distributed
+In the distributed approach, the communication and energy transfer network is modelled as a bipartite graph. Each agent solves its own optimization problem and broadcasts the state of its energy flow variables to the nodes in its neighborhood. Therefore, penalty factors and regularizers are autonomously updated, without the need of a coordinator.
 <p align="center">
   <img src="img/distributed.png" align="center"></img>
 </p>
