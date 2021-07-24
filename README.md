@@ -28,7 +28,7 @@ subject to the constraints set
 
 where <img align="center"><img src="https://latex.codecogs.com/gif.latex?q%5E%5Cuparrow_%7Bjt%7D"></img> is the energy received by prosumers, <img src="https://latex.codecogs.com/gif.latex?q%5E%5Cdownarrow_%7Bjt%7D"></img> is the energy retrieved by prosumers, <img src="https://latex.codecogs.com/gif.latex?b_%7Bjt%7D"></img> is the storage system charging level. Vector <img src="https://latex.codecogs.com/gif.latex?%5Cboldsymbol%7Bv%7D_%7B%5Cmathcal%7BS%7D%2C%20j%7D"></img> contains the previously listed variables. The degradation rate is <img src="https://latex.codecogs.com/gif.latex?%5Czeta_%7Bjt%7D"></div>.  
 
-## Implementative approaches
+## Implementation approaches
 ### Centralized
 The centralized approach consists of a grand coalition resulting from the union of the prosumers' and providers' communities. A _community manager_ solves the ooptimization problem on behalf of all agents. 
 <p align="center">
