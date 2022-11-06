@@ -65,3 +65,16 @@ In the distributed approach, the communication and energy transfer network is mo
 
 ## Reference
 N. Mignoni, _Control techniques for multiple energy storage systems in smart grids_, Politecnico di Bari, 2021
+
+## Cite as
+```
+@article{mignoni2023control,
+  title={Control frameworks for transactive energy storage services in energy communities},
+  author={Mignoni, Nicola and Scarabaggio, Paolo and Carli, Raffaele and Dotoli, Mariagrazia},
+  journal={Control Engineering Practice},
+  volume={130},
+  pages={105364},
+  year={2023},
+  publisher={Elsevier}
+}
+```
