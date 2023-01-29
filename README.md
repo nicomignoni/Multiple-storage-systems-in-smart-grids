@@ -1,5 +1,5 @@
 # Multiple storage systems in smart grids
-This repo contains the MATLAB code used in the MSc thesis _"Control techniques for multiple energy storage systems in smart grids"_, whose results have been extended to the paper _"Control frameworks for transactive energy storage services in energy communities"_ ([Elsevier](https://www.sciencedirect.com/science/article/abs/pii/S0967066122001952)) ([techrxiv](https://www.techrxiv.org/articles/preprint/Control_Frameworks_for_Transactive_Energy_Storage_Services_in_Energy_Communities/21305052)).
+This repo contains the MATLAB code used in the MSc thesis _"Control techniques for multiple energy storage systems in smart grids"_, whose results have been extended to the paper _"Control frameworks for transactive energy storage services in energy communities"_ [[Elsevier](https://www.sciencedirect.com/science/article/abs/pii/S0967066122001952)] [[TechRxiv](https://www.techrxiv.org/articles/preprint/Control_Frameworks_for_Transactive_Energy_Storage_Services_in_Energy_Communities/21305052)].
 
 The main idea is to consider the energy storage as a service provided by an independent economical agents, i.e., the _providers_. _Prosumers_ can than decide whether to sell the exceeding energy to the _retailer_ or store it. 
 
